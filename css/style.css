@@ -127,13 +127,13 @@ height:8em;
 .west{
 position:relative;
 top: -15em;
-left: 30em;
+left: 20em;
 }
 
 .oost{
 position:relative;
 top:-10em;
-left: 30em;
+left: 20em;
 }
 
 h2{
@@ -149,4 +149,70 @@ color:white;
 .lijst{
 position:static;
 color:#BFBD1D;
+}
+
+@media only screen and (min-width:350px){
+.menu{
+background-image:url(../images/nav.png);
+background-size:contain;
+background-repeat:no-repeat;
+position:relative;
+right:-70em;
+top:-15em;
+width: 10em;
+height:10em;
+}
+
+li{
+position:relative;
+left:-3em;
+text-align:center;
+font-size:3em;
+list-style:none;
+line-height:2em;
+z-index:2;
+}
+
+.tekst{
+position:relative;
+top:2em;
+width:60em;
+margin-left:12em;
+height:90em;
+margin-bottom:10em;
+}
+
+}
+
+@media only screen and (min-width:400px){
+.menu{
+background-image:url(../images/nav.png);
+background-size:contain;
+background-repeat:no-repeat;
+position:relative;
+right:-75em;
+top:-15em;
+width: 10em;
+height:10em;
+}
+
+li{
+position:relative;
+left:-1em;
+text-align:center;
+font-size:3em;
+list-style:none;
+line-height:2em;
+z-index:2;
+}
+
+.tekst{
+position:relative;
+top:2em;
+width:60em;
+margin-left:17em;
+height:90em;
+margin-bottom:10em;
+}
+
 }
