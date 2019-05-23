@@ -11,7 +11,8 @@ color:white;
 
 .container{
 position:relative;
-min-height:100em;
+min-height:100vh;
+margin:0;
 }
 
 .header{
@@ -79,7 +80,16 @@ position:relative;
 top:2em;
 width:60em;
 margin-left:10em;
-margin-bottom:10em;
+height:90em;
+margin-bottom:5em;
+}
+
+h1{
+font-size:5em;
+}
+
+p{
+font-size:3em;
 }
 
 footer{
@@ -87,7 +97,7 @@ position:relative;
 bottom:0;
 background-color:#4E4D32;
 width:100em;
-height:40em;
+height:65em;
 overflow:hidden;
 margin:0;
 }
@@ -127,11 +137,16 @@ left: 30em;
 }
 
 h2{
-font-size:3em;
+font-size:4em;
 color:#BFBD1D;
 }
 
 .voet{
-font-size:2em;
+font-size:3em;
 color:white;
+}
+
+.lijst{
+position:static;
+color:#BFBD1D;
 }
